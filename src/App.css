@@ -1,0 +1,160 @@
+.top-section {
+  display: flex;
+}
+
+.middle-section {
+  display: flex;
+}
+.counter {
+  max-width: 320px;
+  background-color: #708993;
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
+  border-radius: 5px;
+  justify-content: center;
+  margin: 10px;
+}
+
+.count-display {
+  text-align: center;
+  font-size: 56px;
+  padding: 0;
+  color: #e7f2ef;
+}
+
+.button-container button {
+  min-width: 95px;
+  height: 30px;
+  margin: 5px;
+}
+
+.history-container {
+  height: 150px;
+  overflow: auto;
+  background-color: beige;
+  border-radius: 2px;
+  border-style: none;
+  padding: 5px;
+}
+
+input {
+  min-width: 290px;
+  margin: 3px 0 10px 0;
+  border-radius: 2px;
+  border-style: none;
+}
+
+.task-container {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.task-rating {
+  padding: 10px;
+  margin-top: 10px;
+  min-width: 320px;
+  max-height: 288px;
+  border-radius: 7px;
+  background-color: rgba(179, 178, 140, 0.168);
+}
+.rating {
+  display: flex;
+
+  cursor: pointer;
+  font-size: 22px;
+  margin-bottom: 2px;
+}
+
+.rating div {
+  color: lightblue;
+  position: relative;
+}
+
+.rating div:hover {
+  color: rgb(203, 174, 10);
+}
+
+.rating .yes {
+  color: gold;
+}
+
+.expense-tracker {
+  width: 309px;
+  max-height: 200px;
+  background-color: #70899344;
+  margin-left: 10px;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+form input {
+  background-color: #708993;
+  color: aliceblue;
+  padding-left: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.expense-item-container {
+  display: flex;
+
+  background-color: aliceblue;
+
+  padding-left: 5px;
+}
+
+.expense-item {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.items-cont {
+  margin-top: 5px;
+  max-height: 150px;
+  overflow: auto;
+}
+.deleteBtn {
+  background-color: rgba(240, 255, 255, 0);
+  border: none;
+  color: rgba(0, 0, 0, 0.364);
+
+  align-items: baseline;
+  margin-left: 5px;
+  justify-content: right;
+}
+
+.deleteBtn:hover {
+  color: red;
+}
+
+#expense-header {
+  max-width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shopping-list {
+  margin-left: 10px;
+  width: 309px;
+}
+
+.shopping-list div input {
+  width: 240px;
+  background-color: #708993;
+  color: whitesmoke;
+  padding-left: 5px;
+  height: 20px;
+}
+
+.input-section {
+  display: flex;
+}
+
+.shoppingItem {
+  display: flex;
+  justify-content: space-between;
+}
